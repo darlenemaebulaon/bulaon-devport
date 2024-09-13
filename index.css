@@ -1,0 +1,260 @@
+body {
+    background-color: #c8d6ec;
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 111, 166);
+    font-family: "Dongle";
+    padding: 40px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 10px !important;
+    background: none !important; 
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000 !important;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ul li:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+    }
+
+}
+.header {
+    font-family: "Dongle";
+    text-align: center;
+    padding: 50px;
+    background: url('./images/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff; 
+}
+
+.header .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ffffff; 
+    margin-bottom: 20px;
+}
+
+#about {
+    font-family: "Dongle";
+    color: #000000;
+    padding: 40px;
+}
+
+#about .about-container {
+    border: 2px solid #333;
+    border-radius: 8px; 
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+#about p {
+    text-align: center;
+}
+
+#projects {
+    background-color: #d0d0d3;
+    color: #000000;
+    font-family: "Dongle";
+    padding: 40px;
+}
+
+.card-prjct {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.card-prjct img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-prjct:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.1em;
+    }
+    
+    .card-text {
+        font-size: 0.9em;
+    }
+}
+#tools {
+    font-family: "Dongle";
+    color: #000000;
+    padding: 20px 0;
+}
+
+.tools-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.tools-list li {
+    flex: 1 1 calc(33.333% - 20px);
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.tools-list img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tools-list p {
+    margin: 0;
+}
+
+#contact {
+    background: #d0d0d3;
+    color: #000000;
+    font-family: "Dongle";
+    padding: 50px 0;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}
+
+.form-control {
+    border-radius: 3px;
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #223965;
+}
+
+.form-control:focus {
+    border-color: #666;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #223965;
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 200px;
+    }
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(81, 111, 166);
+}
+
+.footer p {
+    margin: 0;
+    color: #333;
+}
+
+.social .list-inline-item {
+    margin: 0 10px;
+}
+
+.social a {
+    color: #ffffff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #cccccc;
+}
